@@ -1,0 +1,208 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*reset*/
+body,div,ul,ol,li,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,blockquote,th,td {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal}
+body {text-align:left; font-family:(SimSun, serif); font-size:12px; color:#000; line-height:20px;}
+html,body { height:100%;}
+a {text-decoration:none;}
+a:hover {color:#000; text-decoration:underline;}
+ul,ol {list-style:none;}
+img {border:0;vertical-align:middle;}
+table {border-collapse:collapse; border-spacing:0;}
+caption,th {text-align:left;}
+/*清除浮动*/
+.clearfix:after {visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0;}
+.clearfix{*zoom:1;}
+
+a{color:#333;text-decoration:none;-webkit-transition: all 0.18s ease-out;-moz-transition: all 0.18s ease-out;-ms-transition: all 0.18s ease-out;-o-transition: all 0.18s ease-out;transition: all 0.18s ease-out;}
+a:hover{color:#0992cb;text-decoration:underline;}
+
+
+/* 页尾 */
+.infobar { height:30px; text-align:center;background:#c5c5c5}
+.infobar .cont_f {  width:1000px;height:30px; margin:0 auto;line-height:30px;;color: #767676;background:#c5c5c5}
+.infobar .cont_f .txt_l {float:left;}
+.infobar .cont_f .txt_r {float:right;}
+.header_yc {height:40px;background:#fff; }
+.footer_yc {background:#fff;}
+
+
+/* 框架 */
+/*头图可根据实际情况自定义分块*/
+.cont_h_1,.cont_h_2,.cont_h_3,.cont_1,.cont_2,.cont_3,.cont_4,.cont_5{position:relative; width:1000px; margin:0 auto;}
+.main_h_1,.cont_h_1 {height:282px; background:url(../images/header_1.jpg) no-repeat center top;}
+.main_h_2,.cont_h_2 {height:315px; background:url(../images/header_2.jpg) no-repeat center top;}
+.main_h_3,.cont_h_3 {height:315px; background:url(../images/header_2.jpg) no-repeat center top;}
+.main_1,.cont_1 {height:180px; background:url(../images/main_1.jpg) no-repeat center top;}
+.main_2,.cont_2 {height:680px; background:url(../images/main_2.jpg) no-repeat center top;}
+.main_3,.cont_3 {height:180px; background:url(../images/main_3.jpg) no-repeat center top;}
+.main_4,.cont_4 {height:180px; background:url(../images/main_4.jpg) no-repeat center top;}
+.main_5,.cont_5 {height:420px; background:url(../images/main_5.jpg) no-repeat center top;}
+
+h2 {position:absolute;left:0; top:0; width:120px; height:40px;  line-height:500px; overflow:hidden;}
+.blank_s {background:url(../images/blank.gif); position:absolute;}
+/*以上为公用样式*/
+
+/*header*/
+.logo_link { position:absolute; width:100px; height:100px;background:url(../images/blank.gif)}
+.official_btn {}
+
+/*内容1*/
+.cont_1 .test {}
+
+/*内容2*/
+.cont_2 .test {}
+
+/*内容3*/
+.cont_3 .test {}
+
+/*内容4*/
+.cont_4 .test {}
+
+/*精美车图*/
+.cont_5 .test {}
+.slideBox1{ width:1000px; height:420px; position:relative;}
+.toggle-btn{ width:32px; height:128px; background:url(../images/prev.png) no-repeat; position:absolute; top:50%; margin-top:-64px;}
+#prev{left:0;}
+#next{background:url(../images/next.png) no-repeat;right:0;}
+
+
+/*样式范例，专题制作完毕可删除*/
+/*页头 */
+.header ()
+/*导航 */
+.nav {}
+/*菜单 */
+.menu ()
+/*主框架 */
+.main {}
+/*内容区 */
+.cont {}
+/*负责人信息栏 */
+.infobar ()
+/*页尾 */
+.footer {}
+
+
+/*访问信息类*/
+/*报名 */
+.register {}
+/*注册按钮*/
+.inp_btn {}
+/*浮动登陆框*/ 
+.flo_register {}
+/*登录*/ 
+.login {}
+/*登录按钮*/ 
+.login_btn {}
+
+/*专题相关信息*/
+/*活动介绍*/ 
+.intro {} 
+/*优惠信息 销售政策 金融方案*/ 
+.sales {} 
+
+/*新闻类*/
+/*最新资讯 车讯*/ 
+.hot {}
+/*新闻动态*/ 
+.news {}
+
+/*视频 */
+.video {}
+
+/*互动类*/
+/*秒杀 */
+.seckill {}
+/*游戏 */
+.game {}
+/*签到*/  
+.sign_in {}
+/*车主访谈*/ 
+.interview {}
+/*点赞*/
+.like {}
+/*竞拍*/
+.auction {}
+
+/*经销商*/ 
+.dealer {} 
+/*参数配置*/ 
+.parameter {}
+
+/*专题文章类*/
+/*编辑推荐 编辑测评 精彩文字 媒体文章*/ 
+.essay {} 
+/*论坛帖 热帖聚集*/ 
+.bbs {} 
+
+/*图片类*/
+/*车型展示 车型亮点 车型介绍 车型靓图*/
+.show {}
+/*精美车图*/
+.photos {}
+
+/*浮动类*/
+/*浮动菜单*/ .flo_menu{}
+/*浮动图片*/ .flo_pic {}
+
+
+/*弹层*/
+.mask_layer {}
+.pop_xxx_btn {}/*中间词可以是弹层功能相关词*/
+.pop_xxx_box {}/*中间词可以是弹层功能相关词*/
+/*示意：视频弹层*/
+.pop_video_btn {}/*中间词可以是弹层功能相关词*/
+.pop_video_box {}/*中间词可以是弹层功能相关词*/
+
+/*获奖名单*/ .results {}
+/*敬请期待*/ .waiting {}
+/*微信*/ .weChat {}
+
+
+
+
+/* 弹窗 */
+.pop_close { position:absolute; top:-37px; right:-5px; width:40px; height:32px;line-height:30px;  font-family:"Microsoft YaHei" ; font-size:18px; color:#fff; text-align:center; background:#7598b2;;cursor: pointer;}
+.mask { position:fixed;left:50%;; top:0; width:3000px; height:10000px;  margin:0 0 0 -1500px;; background:url(../images/mask.png);z-index:99; display:none}
+.pop { z-index:100;position:fixed; left:50%; top:50%; font-family:"Microsoft YaHei"; display:none}
+.pop h3 { float:left;height:45px; line-height:42px; font-size:18px; font-weight:bold; text-align:center; margin:0 0 20px 35px; background:#055d87; color:#fff; padding:5px 15px}
+/* 内容 */
+.pop_intro_box {width:950px; height:450px; margin:-225px 0 0 -480px; border:5px solid #fca139; font-size:14px;background:#fff}
+.pop_intro_box p { padding:0 0 5px 0; font-size:14px; line-height:24px;}
+
+
+
+
+/* 登录弹窗 */
+.pop_login_btn {position: absolute;width: 190px;height: 35px;cursor: pointer;background: #eeb118;text-align: center;font-size: 18px;line-height: 35px;color: #a62224;font-family: "Microsoft YaHei";font-weight: bold;
+left: 539px;top: 56px;}
+.pop_login_btn:hover {background:#f1c454}
+.pop_login_box { width:950px; height:100px;margin:-50px 0 0 -480px; border:5px solid #fca139; background:#fff; font-size:14px;}
+.pop_login_box ul { padding:35px 0 0 40px}
+.pop_login_box li { float:left; width:320px;}
+.pop_login_box li span{float:left; width:60px;padding:0 5px 0 0; line-height:24px ; text-align:right; }
+.pop_login_box li input{float:left;width:227px;height:26px ;padding:0 0 0 0;border:1px solid #c6c6c6;line-height:24px; }
+.pop_login_box .login_btn { float:left;width: 190px;height: 28px;line-height: 28px;font-weight: bold;text-align: center;font-size: 18px;color: #fff;font-family: "Microsoft YaHei";background: #a62224;cursor: pointer;}
+.pop_login_box .login_btn:hover {background:#da1f1e}
+
+/* 回到顶部 */
+.actGotop{position:fixed; _position:absolute; bottom:100px; right:50px; width:55px; height:55px; z-index:200; display:none;}
+.actGotop a,.actGotop a:link{width:55px;height:55px;display:inline-block; background:url(../images/gotop.gif) no-repeat; }
+
+
+/* 报名 */
+.register{float:left;width:310px;height:402px;padding:100px 0 0 20px;;overflow:hidden;}
+.register li{float:left;width:310px;height:30px;	}
+.register input{width:140px;height:20px;padding:0 0 0 5px;border:none; }
+.register span{float:left; width:60px}
+.register select{float:left;width:147px;height:20px;padding:0 0 0 5px;border:none;  }
+.reg_btn { float:left;width: 190px;height: 35px;cursor: pointer;background: #a62224;text-align: center;font-size: 20px;line-height: 35px;color: #fff;font-family: "Microsoft YaHei";font-weight: bold;left: 950px;top: 98px;}
+.reg_btn:hover {background:#da1f1e}
+.reg_box { background:#CCC}
+.reg_hover { background: #FFC}
+.reg_onfocus { background: #999}
+
+
+
