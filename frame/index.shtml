@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<!--
-Author: zhangzhe
-date: 2017-1-1
+Author: lijiacheng
+date: 2017-4-11
 -->
 
 	<head>
@@ -15,9 +15,8 @@ date: 2017-1-1
 		<meta itemprop="name" content="主视觉中标题">
 		<!--<meta name="mobile-agent" content="format=html5; url=对应的移动站URL地址" /> -->
 		<script src="http://www.bitauto.com/zhuanti/adtopic/js/jquery-1.8.3.min.js" type="text/javascript"></script>
-		<script src="js/common.js" type="text/javascript"></script>
 
-		
+		<script src="http://image.bitautoimg.com/videoforum/js/video2015121703play.js" type="text/javascript" charset="utf-8"></script>
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 		<!--PC&M 适配 百度监测 start-->
 		<!--#include file="/zhuanti/adtopic/include/20160125_pc_top.shtml"-->
@@ -49,8 +48,10 @@ date: 2017-1-1
 
 		<div class="main_h_1">
 			<div class="cont_h_1">
-				<a href="#" target="_blank" class="logo_link" style="left:10px; top:10px"></a>
-				<a href="#" target="_blank" class="logo_link" style="right:10px; top:10px"></a>
+				<div class="pop vid-box1 vid-box" data-vid="492091"></div>
+				<div class="pop vid-box2 vid-box" data-vid="492125"></div>
+				<div class="pop vid-box vid-box3" data-vid="492126"></div>
+			
 			</div>
 		</div>
 
@@ -102,74 +103,112 @@ date: 2017-1-1
 				<a class="more">
 					查看详情
 				</a>
-				<img class="video-img" src="images/video-img_03.jpg"/>
+				<div class="video-img">
+					<!--视频轮播-->
+					<div class="fullSlide">
+						<div class="bd">
+							<ul style="position: relative; width: 1519px; height: 410px;">
+								<li style="background: white;" >
+									<img class="img-vi1" src="images/video-img_03.jpg"/>
+								</li>
+								<li style="background: white;">
+									<img class="img-vi2" src="images/video.jpg"/>		
+								</li>
+								<li style="background: white;">
+									<img class="img-vi3"  src="images/video.jpg"/>		
+								</li>
+
+							</ul>
+						</div>
+						<div class="hd">
+							<ul>
+								<li class="">1</li>
+								<li class="on" style="margin-left:25px;margin-right:25px;">2</li>
+								<li class="">3</li>
+							</ul>
+						</div>
+					</div>
+
+
+				</div>
 			</div>
 		</div>
 
 		<div class="main_3">
-			<div class="cont_3" >
+			<div class="cont_3">
 				<div class="config roll">
-					<img src="images/config_01.jpg"/>
-					<img src="images/config_02.jpg"/>
+					<img src="images/config_01.jpg" />
+					<img src="images/config_02.jpg" />
 				</div>
 			</div>
 		</div>
 
 		<div class="main_4">
-   <div class="photo_box">
-            <div class="photo_slide pics50" style="display: block;">
-                <div id="index_b_hero">
-                    <div class="hero-wrap">
-                        <ul class="heros clearfix">
-                            <li class="hero"><img src="images/photo-car1.jpg" alt="" /></li>
-                            <li class="hero"><img src="images/photo-car2.jpg" alt="" /></li>
-                            <li class="hero"><img src="images/photo-car3.jpg" alt="" /></li>
-                            <li class="hero"><img src="images/photo-car4.jpg" alt="" /></li>
-                            <li class="hero"><img src="images/photo-car5.jpg" alt="" /></li>
-                            <li class="hero"><img src="images/photo-car6.jpg" alt="" /></li>
-                        </ul>
-                    </div>
-                    <div class="helper">
-                        <div class="mask-left">
-                        </div>
-                        <div class="mask-right">
-                        </div>
-                        <a href="javascript:void(0);" class="prev icon-arrow-a-left"></a>
-                        <a href="javascript:void(0);" class="next icon-arrow-a-right"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+			<div class="photo_box">
+				<div class="photo_slide pics50" style="display: block;">
+					<div id="index_b_hero">
+						<div class="hero-wrap">
+							<ul class="heros clearfix">
+								<li class="hero"><img src="images/photo-car1.jpg" alt="" /></li>
+								<li class="hero"><img src="images/photo-car2.jpg" alt="" /></li>
+								<li class="hero"><img src="images/photo-car3.jpg" alt="" /></li>
+								<li class="hero"><img src="images/photo-car4.jpg" alt="" /></li>
+								<li class="hero"><img src="images/photo-car5.jpg" alt="" /></li>
+								<li class="hero"><img src="images/photo-car6.jpg" alt="" /></li>
+							</ul>
+						</div>
+						<div class="helper">
+							<div class="mask-left">
+							</div>
+							<div class="mask-right">
+							</div>
+							<a href="javascript:void(0);" class="prev icon-arrow-a-left"></a>
+							<a href="javascript:void(0);" class="next icon-arrow-a-right"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="center">
+				<a class="dealer-item pop_btn">查看经销商</a>
+			</div>
 		</div>
-
-	
 
 		<div class="infobar">
 			<div class="cont_f">
 				<div class="txt_l">易车 买车无难事！</div>
-				<div class="txt_r">专题负责人：王辉/李卫/张喆/张涛</div>
+				<div class="txt_r">专题负责人：陈芸/刘传征/李嘉成/张涛</div>
 			</div>
 		</div>
 
 		<!--易车公共页尾通用文件开始-->
 		<!--#include  file="/include/special/2010/00001/2016_lanmuCommon_footer_Manual.shtml"-->
 		<!--易车公共页尾通用文件结束-->
+<!--视频弹窗-->
+		<!--经销商弹窗 -->
 
-		<!-- 登录弹窗 -->
-		<div class="pop pop_login_box">
-			<div class="pop_close">X</div>
-			<ul>
-				<li><span>姓名：</span><input type="text" id="LoginName" /></li>
-				<li><span>手机：</span><input type="text" id="LoginName" /></li>
-				<div class="login_btn">登录</div>
-			</ul>
-		</div>
-		<div class="pop intro_box">
-			<div class="pop_close">X</div>
-			<div class="pop_con">
-				<h3>竞拍说明</h3>
-				<div class="pop_desc roll">
-				</div>
+		<div class="pop intro_box diaDealer" style="">
+
+			<div id="cboxClose" class="aa pop_close">close</div>
+			<div class="diaDealerHead">
+				<h3>经销商信息</h3>
+				<ul>
+					<li id="d" class="dong">东区</li>
+					<li id="b" class="selected bei">北区</li>
+					<li id="x" class="xi">西区</li>
+					<li id="n" class="nan">南区</li>
+				</ul>
+			</div>
+			<div class="diaDealerBox">
+				<table>
+					<tr id="headTable">
+						<th>省份</th>
+						<th>城市</th>
+						<th>经销商</th>
+						<th>电话</th>
+						<th>地址</th>
+					</tr>
+
+				</table>
 			</div>
 		</div>
 		<div class="mask"></div>
@@ -182,27 +221,47 @@ date: 2017-1-1
 		<!-- JiaThis Button BEGIN -->
 		<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?type=left&amp;move=0&amp;uid=2068379" charset="utf-8"></script>
 		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
-    	
-    	<script src="js/jquery.foucs.js" type="text/javascript" charset="utf-8"></script>
-		
+		<script src="js/common.js" type="text/javascript"></script>
+		<script src="js/jquery.foucs.js" type="text/javascript" charset="utf-8"></script>
+
 		<script src="js/jquery.mCustomScrollbar.min.js" type="text/javascript"></script>
 
-    <script type="text/javascript">
-        if (jQuery.browser.version < 7) {
-            $(".roll").css({
-                "overflow-y": "auto"
-            });
-        } else {
-            $(".roll").mCustomScrollbar({
-                scrollInertia: 600,
-                autoDraggerLength: false,
-                advanced: {
-                    updateOnContentResize: true
-                }
-            });
-        }
-        /*精美车图*/
-       jQuery(".slideBox").slide({
+		<script type="text/javascript">
+			if(jQuery.browser.version < 7) {
+				$(".roll").css({
+					"overflow-y": "auto"
+				});
+			} else {
+				$(".roll").mCustomScrollbar({
+					scrollInertia: 600,
+					autoDraggerLength: false,
+					advanced: {
+						updateOnContentResize: true
+					}
+				});
+			}
+			/*视频图片轮播*/
+						jQuery(".fullSlide").hover(function() {
+							jQuery(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+						}, function() {
+							jQuery(this).find(".prev,.next").fadeOut()
+						});
+						jQuery(".fullSlide").slide({
+							titCell: ".hd ul",
+							mainCell: ".bd ul",
+							effect: "fold",
+							autoPlay: true,
+							autoPage: true,
+							trigger: "click",
+							startFun: function(i) {
+								var curLi = jQuery(".fullSlide .bd li").eq(i);
+								if(!!curLi.attr("_src")) {
+									curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+								}
+							}
+						});
+			/*精美车图*/
+			jQuery(".slideBox").slide({
 				mainCell: ".bd ul",
 				autoPlay: false,
 				trigger: "click",
@@ -210,9 +269,26 @@ date: 2017-1-1
 				effect: "left",
 				autoPage: true
 			});
-		$.foucs({ direction: 'left' });
-    </script>
-		
+			$.foucs({
+				direction: 'left'
+			});
+			/*弹窗*/
+			$('.pop_close').click(function() {
+				$(this).parent().fadeOut(200)
+				$('.zbg').fadeOut(200);
+			})
+
+			$('.mask').click(function() {
+				$('.pop').fadeOut(200)
+				$('.mask').fadeOut(200);
+			})
+
+			$('.pop_btn').click(function() {
+				$('.intro_box').fadeIn(200);
+				$('.mask').fadeIn(200);
+			})
+		</script>
+
 		<script type="text/javascript">
 			var jiathis_config = {
 				url: "",
@@ -225,8 +301,38 @@ date: 2017-1-1
 			}
 		</script>
 		<!-- JiaThis Button END -->
+		<script type="text/javascript">
+			/*页面插入视频*/
+			var options = {
+				"localUrl": " ",
+				"width": "100%",
+				"height": "100%",
+				"id": "vplayer",
+				"playerUrl": "http://img1.bitautoimg.com/video/player/yiche1507021.swf?showPauseUi=0&showEndUi=0",
+				"videoId": 0,
+				"playerType": 0,
+				"autoPlay": false,
+				"showPauseUi": 0,
+				"showEndUi": 0
+			};
 
+			function addVideo(videoBox, i) {
+				var vid = videoBox.eq(i).data("vid");
+				options.localUrl = "http://v.bitauto.com/vbase/LocalPlayer/GetPlayVideo?videoid=" + vid;
+				options.videoId = vid;
+				var player = BitautoVideo.GetPlayer(options);
+				return player;
+			}
 
+			//将视频插入到容器中
+			function playVideo() {
+				var videoBox = $(".vid-box")
+				videoBox.each(function(i) {
+					$(this).append(addVideo(videoBox, i))
+				})
+			}
+			playVideo()
+		</script>
 	</body>
 
 </html>

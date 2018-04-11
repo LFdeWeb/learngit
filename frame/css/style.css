@@ -167,7 +167,8 @@ a:hover {
 .cont_2,
 .cont_3,
 .cont_4,
-.cont_5 {
+.cont_5 ,
+.center{
 	position: relative;
 	width: 1000px;
 	margin: 0 auto;
@@ -215,7 +216,81 @@ a:hover {
 	position: absolute;
 	top:30px;
 	left: 682px;
+	width: 318px;
+	height:376px;
 	cursor: pointer;
+	border:  1px solid red;
+}
+/* 视频轮播图 */
+.fullSlide {
+    background: #000 none repeat scroll 0 0;
+    height: 410px;
+    position: relative;
+    width: 100%;
+}
+.fullSlide .bd {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.fullSlide .bd ul {
+    width: 100% !important;
+}
+.fullSlide .bd li {
+    height: 410px;
+    overflow: hidden;
+    text-align: center;
+    width: 100% !important;
+}
+.fullSlide .bd li a {
+    display: block;
+    height: 410px;
+}
+.fullSlide .hd {
+    bottom: 0;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: transparent;
+}
+.fullSlide .hd ul {
+    text-align: center;
+}
+.fullSlide .hd ul  li {
+    background: #000 none repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 11px;
+    line-height: 999px;
+    margin: 10px;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 11px;
+}
+.fullSlide .hd ul .on {
+    background: #f00 none repeat scroll 0 0;
+}
+.fullSlide .prev, .fullSlide .next {
+    background: #000 url("images/slider-arrow.png") no-repeat scroll -126px -137px;
+    cursor: pointer;
+    display: none;
+    height: 60px;
+    left: 15%;
+    margin-top: -30px;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    z-index: 1;
+}
+.fullSlide .next {
+    background-position: -6px -137px;
+    left: auto;
+    right: 15%;
 }
 
 .main_3,
@@ -273,7 +348,6 @@ a:hover {
 	background: url(../images/back_06.jpg) no-repeat center top;
 }
 .photo_box {
-    padding-top: 100px;
 }
 
 .photo_slide {
@@ -384,9 +458,270 @@ h2 {
 	position: absolute;
 }
 
+.center{
+	height: 50px;
+	
+}
+.dealer-item{
+	position: absolute;
+	top: 50px;
+	left:50%;
+	
+	display: block;
+	margin-left: -125px;
+	height: 50px;
+	width: 245px;
+	border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+    font-size: 24px;
+}
+.dealer-item:hover{
+	background:#fff;
+	color: black;
+	text-decoration: none;
+}
 
 /*以上为公用样式*/
+/*视频样式*/
+.video{
+	z-index: 100;
+    position: fixed;
+	height:500px;
+	width: 800px;
+	margin-top:-250px;
+	margin-left:-400px 
+}
+/*经销商弹窗样式*/
 
+.pop {
+    z-index: 100;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+}
+.vid-box{
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left:-400px ;
+    margin-top:-250px ;
+	z-index: 700;
+	height: 500px;
+	width: 800px;
+}
+
+.intro_box {
+    width: 1200px;
+    height: 600px;
+    background: #fff;
+    max-height: 600px;
+    font-size: 14px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -600px;
+}
+
+
+
+
+#cboxClose {
+    position: absolute;
+    top: 30px !important;
+    right: 30px !important;
+    border-radius: 0 0 0 15px;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    background: url(../images/cb-controls.png) no-repeat -25px 0;
+    width: 26px;
+    height: 26px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.diaDealerBox {
+    width: 1140px;
+    max-height: 600px;
+    height: 440px;
+    margin: 30px auto 30px auto;
+    overflow-y: scroll;
+}
+.diaDealerHead{
+	height: 100px;
+	color: black;
+}
+.diaDealerHead {
+    width: 1140px;
+    margin: 30px auto 30px auto;
+}
+
+.diaDealerHead h3 {
+    font-size: 38px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    font-style: normal;
+    height: 55px;
+}
+
+.diaDealerHead ul {
+    width: 100%;
+}
+
+.diaDealerHead ul li {
+    background-image: url("../images/dealer-area-btn.jpg");
+    width: 181px;
+    height: 47px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 47px;
+    text-align: center;
+    float: left;
+    margin: 0 10px 5px 0;
+    cursor: pointer;
+}
+
+.diaDealerHead ul li.selected {
+    background-image: url("../images/dealer-area-btnHover.jpg");
+}
+
+.diaDealerBox table {
+    clear: both;
+    width: 100%;
+    color: #fff;
+}
+
+.diaDealerBox th {
+    background: #9e9e9e;
+    font-size: 16px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.diaDealerBox th:nth-child(1) {
+    width: 10%;
+}
+
+.diaDealerBox th:nth-child(2) {
+    width: 10%;
+}
+
+.diaDealerBox th:nth-child(3) {
+    width: 10%;
+}
+
+.diaDealerBox th:nth-child(4) {
+    width: 15%;
+}
+
+.diaDealerBox th:nth-child(5) {
+    width: 55%;
+}
+
+.diaDealerBox tr {
+    font-size: 14px;
+    height: 40px;
+}
+
+.diaDealerBox tr:nth-child(odd) {
+    background: #cecece;
+}
+
+.diaDealerBox tr:nth-child(even) {
+    background: #9e9e9e;
+}
+
+.diaDealerBox td {
+    border-right: 2px solid #959595;
+    padding-left: 10px;
+    position: relative;
+}
+
+.diaDealerBox td:nth-child(5) {
+    border-right: none;
+}
+
+.diaDealerBox .ac {
+    background-image: url(../img/ac-1.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}
+
+.diaDealerBox .card {
+    width: 305px;
+    height: 0;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    margin-right: -480px;
+    margin-top: -200px;
+    opacity: 0;
+    z-index: 10000;
+}
+
+.diaDealerBox .card h3 {
+    border-bottom: 2px solid #f5f5f5;
+    margin: 10px 0 0 0;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    font-style: normal;
+}
+
+.diaDealerBox .card .avter {
+    background-image: url(../img/ac-3.png);
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+.diaDealerBox .card .nameBox {
+    text-align: center;
+}
+
+.diaDealerBox .card .nameBox .name {
+    font-size: 16px;
+    color: #000;
+}
+
+.diaDealerBox .card .nameBox .post {
+    font-size: 14px;
+    color: #808080;
+}
+
+.diaDealerBox .card .codeBox {
+    width: 70%;
+    /* height: 70%; */
+    margin: 10px auto;
+    box-shadow: 0 3px 10px #726e6e;
+    text-align: center;
+}
+
+.diaDealerBox .card .codeBox img {
+    width: 100%;
+}
+
+.diaDealerBox .card .code img {
+    width: 100%;
+}
+
+.diaDealerBox .card .codeBox span {
+    font-size: 14px;
+    color: #000;
+    line-height: 40px;
+}
 
 /*header*/
 
@@ -505,178 +840,7 @@ select {
 select::-ms-expand { display: none; }  
 /*注册按钮*/
 
-.inp_btn {}
 
-
-/*浮动登陆框*/
-
-.flo_register {}
-
-
-/*登录*/
-
-.login {}
-
-
-/*登录按钮*/
-
-.login_btn {}
-
-
-/*专题相关信息*/
-
-
-/*活动介绍*/
-
-.intro {}
-
-
-/*优惠信息 销售政策 金融方案*/
-
-.sales {}
-
-
-/*新闻类*/
-
-
-/*最新资讯 车讯*/
-
-.hot {}
-
-
-/*新闻动态*/
-
-.news {}
-
-
-/*视频 */
-
-.video {}
-
-
-/*互动类*/
-
-
-/*秒杀 */
-
-.seckill {}
-
-
-/*游戏 */
-
-.game {}
-
-
-/*签到*/
-
-.sign_in {}
-
-
-/*车主访谈*/
-
-.interview {}
-
-
-/*点赞*/
-
-.like {}
-
-
-/*竞拍*/
-
-.auction {}
-
-
-/*经销商*/
-
-.dealer {}
-
-
-/*参数配置*/
-
-.parameter {}
-
-
-/*专题文章类*/
-
-
-/*编辑推荐 编辑测评 精彩文字 媒体文章*/
-
-.essay {}
-
-
-/*论坛帖 热帖聚集*/
-
-.bbs {}
-
-
-/*图片类*/
-
-
-/*车型展示 车型亮点 车型介绍 车型靓图*/
-
-.show {}
-
-
-/*精美车图*/
-
-.photos {}
-
-
-/*浮动类*/
-
-
-/*浮动菜单*/
-
-.flo_menu {}
-
-
-/*浮动图片*/
-
-.flo_pic {}
-
-
-/*弹层*/
-
-.mask_layer {}
-
-.pop_xxx_btn {}
-
-
-/*中间词可以是弹层功能相关词*/
-
-.pop_xxx_box {}
-
-
-/*中间词可以是弹层功能相关词*/
-
-
-/*示意：视频弹层*/
-
-.pop_video_btn {}
-
-
-/*中间词可以是弹层功能相关词*/
-
-.pop_video_box {}
-
-
-/*中间词可以是弹层功能相关词*/
-
-
-/*获奖名单*/
-
-.results {}
-
-
-/*敬请期待*/
-
-.waiting {}
-
-
-/*微信*/
-
-.weChat {}
 
 
 /* 弹窗 */
@@ -705,7 +869,6 @@ select::-ms-expand { display: none; }
 	width: 3000px;
 	height: 10000px;
 	margin: 0 0 0 -1500px;
-	;
 	background: url(../images/mask.png);
 	z-index: 99;
 	display: none
@@ -720,29 +883,25 @@ select::-ms-expand { display: none; }
 	display: none
 }
 
-.pop h3 {
-	float: left;
-	height: 45px;
-	line-height: 42px;
-	font-size: 18px;
-	font-weight: bold;
-	text-align: center;
-	margin: 0 0 20px 35px;
-	background: #055d87;
-	color: #fff;
-	padding: 5px 15px
-}
+
 
 
 /* 内容 */
 
 .pop_intro_box {
-	width: 950px;
-	height: 450px;
-	margin: -225px 0 0 -480px;
-	border: 5px solid #fca139;
-	font-size: 14px;
-	background: #fff
+
+    width: 1200px;
+    height: 600px;
+    background: #fff;
+    max-height: 600px;
+    font-size: 14px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -600px;
+
 }
 
 .pop_intro_box p {
