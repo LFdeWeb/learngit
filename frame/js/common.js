@@ -1,6 +1,31 @@
 $(document).ready(function (e) {
 /*精美车图切换*/	
 jQuery(".slideBox1").slide({mainCell:".bd ul",autoPlay:true,effect:"leftLoop",vis:1});	
+  
+ $.ajax({
+            dataType: "json",
+            url: "data/dealer_json.json",
+            complete: function(res) {
+                var data = jQuery.parseJSON(res.responseText);
+                // console.log(data["dong"]);
+                $.each(data["bei"], function(i, item) {
+                    // console.log(i, item);
+
+                    var str = '<tr><td>' + item["A"] + '</td> <td>' + item["B"] + '</td> <td>' + item["C"] + '</td> <td>' + item["D"] + '</tr>';
+                    if (item["F"] == null) {
+                        var str = '<tr><td>' + item["A"] + '</td> <td>' + item["B"] + '</td> <td>' + item["C"] + '</td> <td>' + item["D"] + '</td> <td>' + item["E"] + '';
+                    } else {
+                        var str = '<tr><td>' + item["A"] + '</td> <td>' + item["B"] + '</td> <td>' + item["C"] + '</td> <td>' + item["D"] + '</td> <td>' + item["E"] + '<div class="ac"></div> <div class="card"> <h3>车顾问</h3> <div class="avter"></div> <div class="nameBox"> <span class="name">' + item["F"] + '</span> <span class="post">客户经理</span> </div> <div class="codeBox"> <img src="' + item["G"] + '"/> <span>微信扫一扫  找我咨询</span> </div> </div> </td> </tr>';
+                    }
+
+                    $("#headTable").after(str);
+
+                    // mouseObj();
+
+                })
+            }
+        });
+
 $('input').on({
 	click:function(){
 		if(this.value==this.defaultValue){
@@ -265,7 +290,7 @@ $('.diaDealerHead li').each(function(i){
         $("#headTable").nextAll().remove();
         $.ajax({
             dataType: "json",
-            url: "js/dealer_json.json",
+            url: "data/dealer_json.json",
             complete: function(res) {
                 var data = jQuery.parseJSON(res.responseText);
                 // console.log(data["dong"]);
@@ -346,20 +371,5 @@ $('.diaDealerHead li').each(function(i){
 
 
 
-    // function mouseObj() {
-    //     $(".ac").mouseenter(function() {
-    //         $(this).parent().find(".card").css({
-    //             "opacity": "1",
-    //             "height": "450px"
-    //         })
-    //         $(this).css("background-image", "url(img/ac-2.png)")
-    //     });
-    //     $(".ac").mouseleave(function() {
-    //         $(this).parent().find(".card").css({
-    //             "opacity": "0",
-    //             "height": "0"
-    //         })
-    //         $(this).css("background-image", "url(img/ac-1.png)")
-    //     });
-    // }
+   
 
