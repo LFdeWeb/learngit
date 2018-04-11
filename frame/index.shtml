@@ -1,157 +1,232 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<!--
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<!--
 Author: zhangzhe
 date: 2017-1-1
 -->
-<head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>【{专题名称}】-汽车专题-易车网</title>
-        <meta name="description" itemprop="description" content="易车网为您提供最新{车型品牌}专题报道,了解{车型品牌}汽车的动态，是您浏览汽车信息和选爱车的第一网络媒体平台，更多精彩尽在易车网。" />
-        <meta name="keywords" content="{车型品牌}专题,{车型品牌},新车专题,易车专题,易车网" /> 
-        <meta content="all" name="robots" />
-        <meta itemprop="image" content="http://www.bitauto.com/zhuanti/adtopic/js/share_logo.jpg">
-        <meta itemprop="name" content="主视觉中标题">
-        <!--<meta name="mobile-agent" content="format=html5; url=对应的移动站URL地址" /> -->
-        <script src="http://www.bitauto.com/zhuanti/adtopic/js/jquery-1.8.3.min.js" type="text/javascript" ></script> 
-        <script src="js/common.js" type="text/javascript" ></script> 
-        <link href="css/style.css" rel="stylesheet" type="text/css" />      
-        <!--PC&M 适配 百度监测 start-->
-        <!--#include file="/zhuanti/adtopic/include/20160125_pc_top.shtml"-->
-        <!--PC&M 适配 end-->
-        <!--易车公共头尾样式文件开始 -->
-        <!--#include file="/topics/adtopic/new_include/20170104_yc_hf_css.shtml"-->
-        <!--易车公共头尾样式文件开始 -->
-        <script>
-		        switchMobi(true,"");
-        </script>
-        <!--去掉易车公共侧边栏-->
-        <script type="text/javascript">
-            (function(global) {
-                global.SidebarConfig = {
-                    activate: false
-                };
-            })(window);
-        </script>
-        <!--去掉易车公共侧边栏-->
-       <!--百度监测（在百度统计里的yiche60这个账号里）-->
-        
-</head>
 
-<body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>【{专题名称}】-汽车专题-易车网</title>
+		<meta name="description" itemprop="description" content="易车网为您提供最新{车型品牌}专题报道,了解{车型品牌}汽车的动态，是您浏览汽车信息和选爱车的第一网络媒体平台，更多精彩尽在易车网。" />
+		<meta name="keywords" content="{车型品牌}专题,{车型品牌},新车专题,易车专题,易车网" />
+		<meta content="all" name="robots" />
+		<meta itemprop="image" content="http://www.bitauto.com/zhuanti/adtopic/js/share_logo.jpg">
+		<meta itemprop="name" content="主视觉中标题">
+		<!--<meta name="mobile-agent" content="format=html5; url=对应的移动站URL地址" /> -->
+		<script src="http://www.bitauto.com/zhuanti/adtopic/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="js/common.js" type="text/javascript"></script>
 
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<!--PC&M 适配 百度监测 start-->
+		<!--#include file="/zhuanti/adtopic/include/20160125_pc_top.shtml"-->
+		<!--PC&M 适配 end-->
+		<!--易车公共头尾样式文件开始 -->
+		<!--#include file="/topics/adtopic/new_include/20170104_yc_hf_css.shtml"-->
+		<!--易车公共头尾样式文件开始 -->
+		<script>
+			// switchMobi(true,"");
+		</script>
+		<!--去掉易车公共侧边栏-->
+		<script type="text/javascript">
+			(function(global) {
+				global.SidebarConfig = {
+					activate: false
+				};
+			})(window);
+		</script>
+		<!--去掉易车公共侧边栏-->
+		<!--百度监测（在百度统计里的yiche60这个账号里）-->
 
+	</head>
 
-<!--易车公共页头通用文件开始 -->
-<!--#include  file="/include/special/2010/00001/2016_lanmuCommon_header_Manual.shtml"-->
-<!--易车公共页头通用文件结束 -->
+	<body>
 
-<div class="main_h_1">
-<div class="cont_h_1">
-<a href="#" target="_blank" class="logo_link" style="left:10px; top:10px"></a>
-<a href="#" target="_blank" class="logo_link" style="right:10px; top:10px"></a>
-</div>
-</div>
+		<!--易车公共页头通用文件开始 -->
+		<!--#include  file="/include/special/2010/00001/2016_lanmuCommon_header_Manual.shtml"-->
+		<!--易车公共页头通用文件结束 -->
 
-<div class="main_h_2">
-<div class="cont_h_2">
-</div>
-</div>
+		<div class="main_h_1">
+			<div class="cont_h_1">
+				<a href="#" target="_blank" class="logo_link" style="left:10px; top:10px"></a>
+				<a href="#" target="_blank" class="logo_link" style="right:10px; top:10px"></a>
+			</div>
+		</div>
 
-<div class="main_h_3">
-<div class="cont_h_3">
-</div>
-</div>
-<div class="main_1">
-<div class="cont_1">
-<h2></h2>
-</div>
-</div>
+		<div class="main_h_2">
+			<div class="cont_h_2">
 
-<div class="main_2">
-<div class="cont_2">
-<h2></h2>
-</div>
-</div>
+			</div>
+		</div>
 
-<div class="main_3">
-<div class="cont_3">
-<h2></h2>
-</div>
-</div>
+		<div class="main_1">
+			<div class="cont_1">
+				<div class="register">
+					<ul>
+						<li>
+							<input type="text" id="LoginName" value="姓名" />
+						</li>
+						<li>
+							<select id="sex">
+								<option value="-1">称谓</option>
+								<option value="">先生</option>
+								<option value="">女士</option>
+							</select>
+						</li>
+						<li style="margin-right:0 ; width: 244px;">
+							<input type="text" id="LoginPhone" value="手机" />
+						</li>
+						<li>
+							<select id="prov">
+								<option value="-1">省份</option>
+							</select>
+						</li>
+						<li>
+							<select id="city">
+								<option value="-1">城市</option>
+							</select>
+						</li>
 
-<div class="main_4">
-<div class="cont_4">
-<h2></h2>
-</div>
-</div>
+						<li style="border:0; width:400px; margin:30px 0 0 340px;">
+							<a href="javascript:;" id="denging" class="reg_btn"></a>
+						</li>
+					</ul>
 
-<div class="main_5">
-<div class="cont_5">
-    <div class="slideBox1">
-        <div class="bd">
-            <ul>
-                <li><img src="images/photos/photo1.jpg" /></li>
-                <li><img src="images/photos/photo2.jpg" /></li>
-                <li><img src="images/photos/photo3.jpg" /></li>
-            </ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="main_2">
+			<div class="cont_2">
+				<a class="more">
+					查看详情
+				</a>
+				<img class="video-img" src="images/video-img_03.jpg"/>
+			</div>
+		</div>
+
+		<div class="main_3">
+			<div class="cont_3" >
+				<div class="config roll">
+					<img src="images/config_01.jpg"/>
+					<img src="images/config_02.jpg"/>
+				</div>
+			</div>
+		</div>
+
+		<div class="main_4">
+   <div class="photo_box">
+            <div class="photo_slide pics50" style="display: block;">
+                <div id="index_b_hero">
+                    <div class="hero-wrap">
+                        <ul class="heros clearfix">
+                            <li class="hero"><img src="images/photo-car1.jpg" alt="" /></li>
+                            <li class="hero"><img src="images/photo-car2.jpg" alt="" /></li>
+                            <li class="hero"><img src="images/photo-car3.jpg" alt="" /></li>
+                            <li class="hero"><img src="images/photo-car4.jpg" alt="" /></li>
+                            <li class="hero"><img src="images/photo-car5.jpg" alt="" /></li>
+                            <li class="hero"><img src="images/photo-car6.jpg" alt="" /></li>
+                        </ul>
+                    </div>
+                    <div class="helper">
+                        <div class="mask-left">
+                        </div>
+                        <div class="mask-right">
+                        </div>
+                        <a href="javascript:void(0);" class="prev icon-arrow-a-left"></a>
+                        <a href="javascript:void(0);" class="next icon-arrow-a-right"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <a href="javascript:;" class="prev toggle-btn" id="prev"></a>
-        <a href="javascript:;" class="next toggle-btn" id="next"></a>
-    </div>
-</div>
-</div>
+		</div>
+
+	
+
+		<div class="infobar">
+			<div class="cont_f">
+				<div class="txt_l">易车 买车无难事！</div>
+				<div class="txt_r">专题负责人：王辉/李卫/张喆/张涛</div>
+			</div>
+		</div>
+
+		<!--易车公共页尾通用文件开始-->
+		<!--#include  file="/include/special/2010/00001/2016_lanmuCommon_footer_Manual.shtml"-->
+		<!--易车公共页尾通用文件结束-->
+
+		<!-- 登录弹窗 -->
+		<div class="pop pop_login_box">
+			<div class="pop_close">X</div>
+			<ul>
+				<li><span>姓名：</span><input type="text" id="LoginName" /></li>
+				<li><span>手机：</span><input type="text" id="LoginName" /></li>
+				<div class="login_btn">登录</div>
+			</ul>
+		</div>
+		<div class="pop intro_box">
+			<div class="pop_close">X</div>
+			<div class="pop_con">
+				<h3>竞拍说明</h3>
+				<div class="pop_desc roll">
+				</div>
+			</div>
+		</div>
+		<div class="mask"></div>
+
+		<div class="actGotop">
+			<a href="javascript:;" title="Top"></a>
+		</div>
+		<!-- 专题通用include调用文件 -->
+		<!--#include file="/zhuanti/adtopic/include/20160503_pc.shtml"-->
+		<!-- JiaThis Button BEGIN -->
+		<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?type=left&amp;move=0&amp;uid=2068379" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+    	
+    	<script src="js/jquery.foucs.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/jquery.mCustomScrollbar.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        if (jQuery.browser.version < 7) {
+            $(".roll").css({
+                "overflow-y": "auto"
+            });
+        } else {
+            $(".roll").mCustomScrollbar({
+                scrollInertia: 600,
+                autoDraggerLength: false,
+                advanced: {
+                    updateOnContentResize: true
+                }
+            });
+        }
+        /*精美车图*/
+       jQuery(".slideBox").slide({
+				mainCell: ".bd ul",
+				autoPlay: false,
+				trigger: "click",
+				delayTime: 600,
+				effect: "left",
+				autoPage: true
+			});
+		$.foucs({ direction: 'left' });
+    </script>
+		
+		<script type="text/javascript">
+			var jiathis_config = {
+				url: "",
+				summary: "",
+				title: "",
+				pic: "http://www.bitauto.com/zhuanti/adtopic/js/share_logo.jpg",
+				shortUrl: false,
+				hideMore: false,
+				data_track_clickback: 'true'
+			}
+		</script>
+		<!-- JiaThis Button END -->
 
 
-<div class="infobar">
-<div class="cont_f">
-<div class="txt_l">易车 买车无难事！</div>
-<div class="txt_r">专题负责人：王辉/李卫/张喆/张涛</div>
-</div>
-</div>
+	</body>
 
-<!--易车公共页尾通用文件开始-->
-<!--#include  file="/include/special/2010/00001/2016_lanmuCommon_footer_Manual.shtml"-->
-<!--易车公共页尾通用文件结束-->
-    
-
-<!-- 登录弹窗 -->
-<div class="pop pop_login_box">
-    <div class="pop_close">X</div>
-    <ul>
-        <li><span>姓名：</span><input type="text" id="LoginName" /></li>
-        <li><span>手机：</span><input type="text" id="LoginName" /></li>
-        <div class="login_btn">登录</div>
-    </ul>
-</div>
-<div class="pop intro_box">
-    <div class="pop_close">X</div>
-    <div class="pop_con">
-        <h3>竞拍说明</h3>
-        <div class="pop_desc roll">
-        </div>
-    </div>
-</div>
-<div class="mask"></div>
-
-<div class="actGotop"><a href="javascript:;" title="Top"></a></div>
-<!-- 专题通用include调用文件 -->
-<!--#include file="/zhuanti/adtopic/include/20160503_pc.shtml"-->
-<!-- JiaThis Button BEGIN -->
-<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?type=left&amp;move=0&amp;uid=2068379" charset="utf-8"></script>
-<script type="text/javascript" >
-var jiathis_config={
-    url      : "",
-    summary  : "",
-    title    : "",
-    pic      : "http://www.bitauto.com/zhuanti/adtopic/js/share_logo.jpg",
-    shortUrl : false,
-    hideMore : false,
-    data_track_clickback:'true'
-}
-</script> 
-<!-- JiaThis Button END -->
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
-
-</body>
 </html>

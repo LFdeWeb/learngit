@@ -1,7 +1,19 @@
 $(document).ready(function (e) {
 /*精美车图切换*/	
 jQuery(".slideBox1").slide({mainCell:".bd ul",autoPlay:true,effect:"leftLoop",vis:1});	
+$('input').on({
+	click:function(){
+		if(this.value==this.defaultValue){
+			this.value=''
+		}
+	},
+	blur:function(){
+		if(this.value==''){
+			this.value=this.defaultValue
+		}
+	}
 
+})
 
 /*切换标签*/	
 $(".menu li").each(function(i){
