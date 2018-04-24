@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="npage">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no, minimal-ui" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title></title>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="" />
+    <meta content="all" name="robots" />
+    <meta itemprop="image" content="http://www.bitauto.com/zhuanti/adtopic/js/share_ych.jpg">
+    <meta itemprop="name" content="">
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                };
+            recalc();
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+        })(document, window);
+    </script>
+</head>
+<body>
+    <!--游戏文件开始 -->
+    <div class="container">
+        <section class="page page1">
+            <img src="images/bg.jpg" alt="">
+            <div class="pz_f">
+                <img src="images/pz_f.png" alt="">
+                <a href="javascript:;" id="o1"></a>
+            </div>
+            <div class="youxiqian">
+                <img src="images/youxiqian_03.png" alt="">
+            </div>
+            <div class="abs car" data-action="cardynamic" data-delay="delay" id="carID">
+                    <a href="javascript:;" id="o2"></a>                
+                <div class="content">
+                    <img src="images/car_03.png">
+                </div>
+                <div class="chelun">
+                    <img src="images/wheel_03.png" class="fincle l" alt="">
+                    <img src="images/wheel_03.png" class="fincle r" alt="">
+                </div>
+            </div>
+            <a href="javascript:;" class="paizhao" id="pz"><img src="images/pz_btn.png" alt=""></a>
+            <p class="pznum">您的抢拍指数为：<span><i></i> 分</span></p>
+            <a href="javascript:;" class="pzagain a1" id="gameAgain"><img src="images/again.png" alt=""></a>
+            <a href="javascript:;" class="pzagain a2" id="startCj"><img src="images/sub_num.png" alt=""></a>
+        </section>
+    </div>
+    <!--游戏文件结束 -->
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            if (isWeiXin()) {
+            
+            }
+            $(".btn-return").click(function () {
+                if (isWeiXin()) {
+                    if (window.history.length < 2) {
+                        return false
+                    } else {
+                        history.back(-1)
+                    }
+                } else {
+                    if (window.history.length < 3) {
+                        return false
+                    } else {
+                        history.back(-1)
+                    }
+                }
+            });
+        })
+        //判断微信
+        function isWeiXin() {
+            var ua = window.navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+                return true;
+            }
+            return false;
+        }
+    </script>
+        <script src="common/public_mode.js" type="text/javascript"></script>
+
+</body>
+<script>
+</html>

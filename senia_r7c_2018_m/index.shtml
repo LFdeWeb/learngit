@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="npage">
+	<!--
+Author: lijiacheng
+date: 2018-3-23
+-->
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no, minimal-ui" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>SENIA R7C 活力上市</title>
+		<meta name="description" itemprop="description" content="易车网为您提供最新一汽森雅R7C专题报道,了解一汽森雅R7C汽车的动态，是您浏览汽车信息和选爱车的第一网络媒体平台，更多精彩尽在易车网。">
+		<meta name="keywords" content="一汽森雅R7C专题,一汽森雅R7C,新车专题,易车专题,易车网" />
+		<meta content="all" name="robots" />
+		<meta itemprop="image" content="http://www.bitauto.com/zhuanti/adtopic/js/share_logo.jpg">
+		<meta itemprop="name" content="主视觉中标题">
+		<!--头尾样式-->
+		<!--#include file="/ushtml/0000/myiche2016_cube_headerandfooter-1188.shtml"-->
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<link href="go/css/animate.css" rel="stylesheet" type="text/css" />
+		<link href="style/style.css" rel="stylesheet" type="text/css" />
+		<script src="http://www.bitauto.com/zhuanti/adtopic/frame_160120/js/reg_com.js" type="text/javascript"></script>
+		<!--经销商滚动条-->
+		<script>
+			//因绝对定位+margin百分比定位在UC中有BUG，翻屏页面建议使用rem单位
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(clientWidth < 320) {
+							docEl.style.fontSize = 50 + 'px'
+						} else if(clientWidth > 750) {
+							docEl.style.fontSize = 100 + 'px'
+						} else {
+							docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+						}
+					};
+				recalc();
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+			})(document, window);
+		</script>
+
+		<!--百度监测（在百度统计里的yiche60这个账号里）-->
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?ad28d891e4de3b94f307155406d3a423";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</head>
+
+	<body>
+		<!--页头通用文件开始 -->
+		<div id="m_header" style="display:none;">
+			<!-- header start -->
+			<div class="op-nav">
+				<a href="http://m.yiche.com/" class="btn-return">返回</a>
+				<div class="tt-name">
+					<a href="http://m.yiche.com/" class="yiche-logo">汽车</a>
+					<h1>专题</h1></div>
+				<!--#include file="/include/pd/2016/wap/00001/201607_wap_common_ejdht_Manual.shtml"-->
+			</div>
+			<div class="op-nav-mark" style="display:none;"></div>
+			<!-- header end -->
+		</div>
+		<!--页头通用文件结束 -->
+		<div class="page-wrapper">
+			<section class="part part1">
+				<img src="images/m-back_01.jpg" />
+				<img src="images/m-back_02.jpg" />
+
+			</section>
+			<section class="part part2  clearfix">
+				<div class="wrapper">
+					<img src="images/m-back_03.jpg" />
+
+					<div class="register clearfix">
+						<ul class="">
+							<li><span class="iconfont">&#xe61b;</span>
+								<input id="LoginName" name="form-input" type="text" class="input" value="姓名" />
+							</li>
+							<li><span class="iconfont">&#xe6ec;</span>
+								<input id="LoginPhone" name="form-input" type="text" class="input" value="手机" />
+							</li>
+							<li><span class="iconfont">&#xe60c;</span>
+								<select class="input select_box" name="prov" id="prov">
+									<option value="-1">省份</option>
+								</select>
+							</li>
+							<li><span class="iconfont">&#xe62b;</span>
+								<select class="input select_box" name="city" id="city">
+									<option value="-1">城市</option>
+								</select>
+							</li>
+
+							<li><span class="iconfont">&#xe610;</span>
+								<select class="input select_box" name="city" id="dealer">
+									<option value="-1">经销商</option>
+								</select>
+							</li>
+
+						</ul>
+						<!--<div class="agree_xieyi">
+							<input type="checkbox" class="agree_input_xy" checked="checked" /> 我已阅读并同意
+							<a href="http://www.bitauto.com/topics/adtopic/agreement_con/" target="_blank">《隐私政策》</a>里的各项内容
+						</div>-->
+						   <!--#include  file="/topics/adtopic/agreement/index.shtml"-->
+
+						<button id="denging" class="submit-btn" />立即报名</button>
+					</div>
+				</div>
+			</section>
+			<section class="part part3">
+				<img src="images/m-back_04.jpg" />
+				<div class="game-title">
+					<p class="h1">
+						SENIA R7C活力上市
+					</p>
+					<p class="h2">
+						即日起在活动页面注册后参与拍车游戏，即有机会获得:
+					</p>
+					<ul class="gift" style="color: red;">
+						<li>● Bose QuietControl 30 无线耳机 </li>
+						<li>● JBL Pulse2 音乐脉动2 炫彩蓝牙小音箱</li>
+						<li>● 200元京东卡</li>
+						<li>● 优酷会员季卡</li>
+						<button  class="add-button popup-btn" data:"popup">游戏须知</button>
+					</ul>
+					<ul class="gift-picture gif-p-1">
+						<li><img src="images/gift-1_03.jpg" /></li>
+						<li><img src="images/gift-1_05.jpg" /></li>
+					</ul>
+					<ul class="gift-picture gif-p-2">
+						<li><img src="images/gift-2_06.jpg" /></li>
+						<li><img src="images/gift-2_03.jpg" /></li>
+					</ul>
+				</div>
+
+			</section>
+			<section class="part part4" style="height: 4.07rem;">
+				<img src="images/m-back_05.jpg" />
+				<iframe src="go/index.html" id="iframeId" frameborder="0" width="100%" height="100%" leftmargin="0" topmargin="0" style="position: absolute;left:0;top: 0;"></iframe>
+			</section>
+			
+			<section class="part part6">
+				<img src="images/m-back_06.jpg" />
+				<div class="wrapper">
+					<div id="car-pic" class="swiper-container" style="overflow:hidden">
+						<div class="bd swiper-wrapper">
+							<div><img src="images/car1.jpg" alt="" /></div>
+							<div><img src="images/car2.jpg" alt="" /></div>
+							<div><img src="images/car3.jpg" alt="" /></div>
+							<div><img src="images/car4.jpg" alt="" /></div>
+							<div><img src="images/car5.jpg" alt="" /></div>
+							<div><img src="images/car6.jpg" alt="" /></div>
+							<div><img src="images/car7.jpg" alt="" /></div>
+							<div><img src="images/car8.jpg" alt="" /></div>
+						</div>
+						<!--<div class="hd">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>-->
+						<!--箭头导航-没用可删掉-->
+						<a class="prev" href="javascript:;"><img class="a5" src="images/btn-1_03.png" alt=""></a>
+						<a class="next" href="javascript:;"><img class="a5" src="images/btn-1_05.png" alt=""></a>
+					</div>
+				</div>
+			</section>
+			<section class="part part7">
+				<img src="images/m-back_07.jpg" />
+				<div class="delear">
+					<div class="delear-address">
+					<span id="add">
+						选择所在地:
+					</span>	
+						<select id="provs">
+							<option value="-1">省份</option>
+						</select>
+						<select id="citys">
+							<option value="-1">城市</option>
+						</select>
+					</div>
+					<div class="roll" id="dealerInfo">
+						<ul class="roll-item">
+							<li>北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>地 址：北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>销售热线：010-65051606</li>
+						</ul>
+						<ul class="roll-item">
+							<li>北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>地 址：北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>销售热线：010-65051606</li>
+						</ul>
+						<ul class="roll-item">
+							<li>北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>地 址：北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>销售热线：010-65051606</li>
+						</ul>
+						<ul class="roll-item">
+							<li>北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>地 址：北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>销售热线：010-65051606</li>
+						</ul>
+						<ul class="roll-item">
+							<li>北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>地 址：北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>销售热线：010-65051606</li>
+						</ul>
+						<ul class="roll-item">
+							<li>北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>地 址：北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>销售热线：010-65051606</li>
+						</ul>
+						<ul class="roll-item">
+							<li>北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>地 址：北京鑫顺腾达汽车销售服务有限公司 </li>
+							<li>销售热线：010-65051606</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="part part8">
+				<img src="images/m-back_08.jpg" />
+
+			</section>
+
+		</div>
+
+		<!--页尾文件开始 -->
+		<div id="m_footer">
+			<!-- 新页底开始 -->
+			<!-- footer start -->
+			<div class="footer15" style="display:none;">
+				<!--搜索框-->
+				<!--#include file="/ushtml/block/so/mobile/MobileSugBottom_chexing_noBom.shtml"-->
+				<!--页底内容-->
+				<!--#include file="/include/pd/2016/wap/00001/201607_wap_common_footer_Manual.shtml"-->
+			</div>
+			<!-- footer end -->
+			<!-- 新页底结束 -->
+			<!--#include file="/zhuanti/adtopic/include/201511_m.shtml"-->
+		</div>
+		<!--页尾文件结束 -->
+
+		<div class="tips-panel" id="">
+			<p>敬请期待</p>
+		</div>
+
+		<div class="popup-panel rule-panel" >
+			<h3>游戏须知</h3>
+			<div class="panel-con" style="background: black;">
+				<p>【互动豪礼】 活动期间到参与专题报名既有机会获得由易车网提供的Bose QuietControl 30 无线耳机限1名、JBL Pulse2 音乐脉动2 炫彩蓝牙小音箱限2名、京东E卡经典卡200面值（电子卡）限30名、优酷会员季卡限100名； 【活动规则】 参与活动前，网友必须认真阅读活动规则，若因网友未能阅读活动须知引起的纠纷，易车网不承担任何责任。参与本次活动即视为您同意接受以下“活动规则”的全部内容。 【活动流程及说明】 1） 参与本次活动的网友均要求实名注册，如因本人提交信息有误导致的任何后果，易车网将不予承担责任； 2） 报名豪礼：网友在活动期间参与专题报名，易车网将在游戏结束后随机抽取中奖奖品； 【特别说明】 ① 网友所登记的姓名、手机号码将作为参与活动的身份核实标准，具有唯一性。 ② 如因网友本人提交信息有误，或与之前提交信息不匹配，导致不能领取奖项，活动主办方将不予承担责任。 ③ 所有获奖名单将在活动结束两周内，易车将通过用户注册时留下的电话，以电话沟通或短信的方式与获奖者联系奖品发放事宜，五天内无法取得联系的获奖者视为弃权。 ④ 专题奖品将于活动结束后两个月内进行发放。 ⑤ 本次活动严禁利用作弊器等一切违反活动规则的作弊行为，对于违背活动公平性的作弊者将直接取消其参赛成绩及获奖资格。
+				</p>
+			</div>
+			<span class="close jsClose" title="关闭">X</span>
+		</div>
+		<div class="mask-layer">
+		
+			<div class="panel-con" data:"popup" >
+				<h3>游戏须知</h3>
+				<div class="pop_desc">
+					<p>		【互动豪礼】<br /> 活动期间到参与专题报名既有机会获得由易车网提供的Bose QuietControl 30 无线耳机限1名、JBL Pulse2 音乐脉动2 炫彩蓝牙小音箱限2名、京东E卡经典卡200面值（电子卡）限30名、优酷会员季卡限100名；</p>
+					<br /><br />
+					<p> 【活动规则】 <br />参与活动前，网友必须认真阅读活动规则，若因网友未能阅读活动须知引起的纠纷，易车网不承担任何责任。参与本次活动即视为您同意接受以下“活动规则”的全部内容。</p>
+					<p> 【活动流程及说明】 <br />1） 参与本次活动的网友均要求实名注册，如因本人提交信息有误导致的任何后果，易车网将不予承担责任； <br />2） 报名豪礼：网友在活动期间参与专题报名，易车网将在游戏结束后随机抽取中奖奖品；</p>
+					<p> 【特别说明】 <br />① 网友所登记的姓名、手机号码将作为参与活动的身份核实标准，具有唯一性。<br /> ② 如因网友本人提交信息有误，或与之前提交信息不匹配，导致不能领取奖项，活动主办方将不予承担责任。<br /> ③ 所有获奖名单将在活动结束两周内，易车将通过用户注册时留下的电话，以电话沟通或短信的方式与获奖者联系奖品发放事宜，五天内无法取得联系的获奖者视为弃权。<br /> ④ 专题奖品将于活动结束后两个月内进行发放。 <br />⑤ 本次活动严禁利用作弊器等一切违反活动规则的作弊行为，对于违背活动公平性的作弊者将直接取消其参赛成绩及获奖资格。</p>
+
+			</div>
+			</div>
+			<span class="close jsClose" title="关闭">X</span>
+		</div>
+		<div class="mask-bottom"></div>
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+		<script src="js/wx_method.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript">
+			TouchSlide({
+				slideCell: "#car-pic",
+				mainCell: ".bd",
+				titCell: ".hd li",
+				effect: "left",
+				pnLoop: "true",
+				prevCell: ".prev",
+				nextCell: ".next",
+				effect: "leftLoop"
+			});
+			/*没有左右箭头可删除参数*/
+			//PcPager.setCustomUrl("http://www.bitauto.com/");
+			/*移动端跳转相应PC页面，更改链接+index.shtml*/
+		</script>
+		<script type="text/javascript">
+			var bitautoskweburl = "http://www.bitauto.com/zhuanti/adtopic/webapisk/JsConfig20150504/JsCommon20150504/";
+			document.write('<scri' + 'pt src=' + bitautoskweburl + 'config.js type="text/javascript"></s' + 'cript>');
+			document.write('<scri' + 'pt src=' + bitautoskweburl + 'skcommon.js type="text/javascript"></s' + 'cript>');
+		</script>
+		<script type="text/javascript" src="http://ip.bitauto.com/iplocation/setcookie.ashx"></script>
+		<script src="common/base_market.js" type="text/javascript"></script>
+		<script src="common/dealer.js" type="text/javascript"></script>
+		<script src="common/public_mode.js" type="text/javascript"></script>
+		<script type="text/javascript" src="http://g.yccdn.com"></script>
+		<!--<script type="text/javascript">
+			var obey = false;
+			$('.add-button').click(function(){
+				obey = !obey;
+				if(boey){
+					$("popup-panel").show()
+				}else{
+					$("popup-panel").hidden()
+				}
+			})
+		</script>-->
+	</body>
+
+</html>
